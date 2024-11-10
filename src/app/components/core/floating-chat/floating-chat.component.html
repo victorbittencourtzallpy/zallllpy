@@ -1,0 +1,21 @@
+<!-- floating-chat.component.html -->
+<div class="floating-chat" [class.hidden]="!isVisible">
+  <div class="chat-header">
+    <span>Chat Assistant</span>
+    <button class="close-button" (click)="toggleChat()">&times;</button>
+  </div>
+  <div class="chat-messages" #chatMessages>
+    @for (message of messages; track $index) {
+      <div  [ngClass]="{'user-message': message.role === 'user', 'assistant-message': message.role === 'assistant'}">
+        <div class="message-bubble">
+          <p>{{ message.content }}</p>
+        </div>
+      </div>
+    }
+  </div>
+  <div class="chat-input">
+    <input [(ngModel)]="userInput" (keydown.enter)="sendMessage()" placeholder="Type your question..." />
+    <button (click)="sendMessage()">Send</button>
+  </div>
+</div>
+<button class="open-button" *ngIf="!isVisible" (click)="toggleChat()">💬</button>

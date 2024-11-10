@@ -1,0 +1,16 @@
+/* logo.component.scss */
+.logo-container {
+    padding: 20px;
+  }
+  
+  .logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .logo-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain; /* This will scale the image within the grid area */
+  }

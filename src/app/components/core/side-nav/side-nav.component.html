@@ -1,0 +1,29 @@
+<!-- sidenav.component.html -->
+<nav class="sidenav">
+  <mat-list>
+    <!-- Dashboard link -->
+    <a mat-list-item routerLink="/dashboards" routerLinkActive="active-link">
+      <mat-icon class="nav-icon">dashboard</mat-icon>
+      <span class="nav-text">Dashboards</span>
+    </a>
+
+    <!-- Openings link -->
+    <a mat-list-item routerLink="/openings" routerLinkActive="active-link">
+      <mat-icon class="nav-icon">work</mat-icon>
+      <span class="nav-text">Vagas em aberto</span>
+    </a>
+
+    <!-- Candidates link -->
+    <a mat-list-item routerLink="/candidates" routerLinkActive="active-link">
+      <mat-icon class="nav-icon">group</mat-icon>
+      <span class="nav-text">Candidatos</span>
+    </a>
+
+    <!-- Recruiters link -->
+    <a mat-list-item routerLink="/autoview" routerLinkActive="active-link">
+      <mat-icon class="nav-icon">supervisor_account</mat-icon>
+      <span class="nav-text">Candidato</span>
+    </a>
+  </mat-list>
+</nav>
+

@@ -1,0 +1,46 @@
+/* Make the sidenav take up the full height of the viewport */
+.sidenav {
+  height: 100vh;
+  position: fixed;
+  background-color: var(--blueish); /* Custom background color */
+  padding-top: 20px;
+  color: var(--white);
+  overflow-y: auto;
+}
+.nav-icon, .nav-text {
+  color: #fff
+}
+
+/* Styling for the sidenav header */
+.sidenav-header {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  color: #1976d2; /* Custom color for header text */
+}
+
+/* Ensure the content area sits to the right of the sidenav */
+.content {
+  margin-left: 240px;
+  padding: 16px;
+}
+
+/* Styling for the icons */
+mat-icon {
+  margin-right: 8px;
+}
+
+.active-link {
+  font-weight: bold;
+  color: #1976d2;
+}
+
+.active-link .nav-text {
+  font-weight: bold;
+  color: #1976d2;
+}
+
+::ng-deep .active-link .nav-text {
+  font-weight: bold;
+  color: #1976d2;
+}

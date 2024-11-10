@@ -1,0 +1,100 @@
+<div class="dashboard-container">
+  <div class="half-space">
+    <div style="width: 30%">
+      <h1>{{ candidate().generalInfo.name }}</h1>
+      <h3>{{ candidate().generalInfo.professionalExperience[0].title }}</h3>
+      <div style="display: flex; gap: 10px; margin-bottom: 10px;">
+        <button mat-raised-button color="primary">Entrevistar</button>
+        <button mat-raised-button>Ver história</button>
+      </div>
+      <p>{{ candidate().generalInfo.location }}</p>
+
+      <div
+        style="
+          display: flex;
+          justify-content: space-around;
+          gap: 15px;
+          flex-direction: column;
+        "
+      >
+        <div
+          style="display: flex; flex-direction: column; gap: 5px"
+          class="black-cards"
+        >
+          @for (language of candidate().generalInfo.languages; track $index) {
+          <span>{{ language }}</span>
+          }
+        </div>
+        <div
+          style="display: flex; flex-direction: column; gap: 5px"
+          class="black-cards"
+        >
+          @for (education of candidate().generalInfo.education; track $index) {
+          <span>{{ education.institution }}</span>
+          <span>{{ education.degree }}</span>
+          <span>{{ education.field }}</span>
+          }
+        </div>
+        <div
+          style="display: flex; flex-direction: column; gap: 5px"
+          class="black-cards"
+        >
+          @for (certification of candidate().generalInfo.certifications; track
+          $index) {
+          <span>{{ certification }}</span>
+          }
+        </div>
+      </div>
+    </div>
+
+    <div class="chart-container">
+      <div style="display: flex; gap: 10px; flex-wrap: wrap; justify-content: flex-end;">
+        @for (ability of candidate().abilities; track $index) {
+          <div style="display: flex; text-wrap:nowrap; background-color: #fff; color: #2a2d3b; font-size: 11px; text-align: center; align-items: center; border-radius: 6px;">
+            <div style="padding: 5px 10px; border-radius: 6px 0 0 6px;" [style.background-color]="getScoreColor(ability.score)">{{ability.score}}</div>
+            <div style="padding: 0 10px">{{ability.name}}</div>
+          </div>
+        }
+      </div>
+      <app-bar-chart [barChartData]="chartData()"></app-bar-chart>
+      <app-radar-chart
+        [chartData]="radarChartData()"
+        [chartOptions]="radarChartOptions"
+      ></app-radar-chart>
+    </div>
+  </div>
+
+  <div>
+    @for (job of candidate().generalInfo.professionalExperience; track $index)
+    {}
+  </div>
+
+  <h1>Abilities</h1>
+
+  <div class="abilities-list-container">
+    @for (ability of candidate().abilities; track $index+1) {
+    <div class="ability-item">
+      <div class="ability-item-header">
+        {{ ability.name }}
+      </div>
+      <div class="points-container">
+        <div class="point">
+          <p>Strength</p>
+          {{ ability.strongPoints[0] }}
+        </div>
+        <div class="point">
+          <p>Weakness</p>
+          {{ ability.weakPoints[0] }}
+        </div>
+      </div>
+      <div class="ability-item-header">
+        Atenção: {{ ability.pointsOfAttention[0] }}
+      </div>
+      <div class="ability-item-header">
+        Sugestão: {{ ability.suggestedQuestions[0] }}
+      </div>
+    </div>
+
+    }
+  </div>
+</div>

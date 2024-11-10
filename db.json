@@ -1,0 +1,792 @@
+{
+  "candidates": [
+    {
+      "id": 1,
+      "generalInfo": {
+        "name": "Victor Eyer",
+        "processStep": "AwaitingResults",
+        "location": "Campos dos Goytacazes, Rio de Janeiro, Brasil",
+        "languages": ["Portuguese (native)", "English (Professional Working)"],
+        "education": [
+          {
+            "degree": "Bacharelado em Engenharia",
+            "field": "Engenharia de Computação",
+            "institution": "IFF - Instituto Federal Fluminense",
+            "completionDate": "2018"
+          },
+          {
+            "degree": "ReactJS, React Native, Node.JS",
+            "institution": "Rocketseat",
+            "completionDate": "2020"
+          },
+          {
+            "degree": "Bacharelado em Engenharia",
+            "field": "Engenharia de Software",
+            "institution": "Estácio",
+            "completionDate": "Expected November 2025"
+          }
+        ],
+        "certifications": [
+          "5° Edição do API Connect Conference",
+          "Treinamento de Gestão de Projetos",
+          "Semana Omnistack 11.0"
+        ],
+        "professionalExperience": [
+          {
+            "title": "Desenvolvedor Fullstack Pleno",
+            "company": "PORTAL SOLAR",
+            "duration": "April 2022 - September 2024",
+            "responsibilities": "Development of API payment systems and franchise management with NodeJS, TypeScript, and React."
+          },
+          {
+            "title": "Desenvolvedor de software",
+            "company": "AYT1.DEV",
+            "duration": "September 2021 - April 2022",
+            "responsibilities": "Fullstack development in a multi-tenant API system using NodeJS, Express, and PostgreSQL."
+          },
+          {
+            "title": "Desenvolvedor Backend Pleno III",
+            "company": "Wiser Educação",
+            "duration": "March 2021 - September 2021",
+            "responsibilities": "Backend development focused on checkout and billing using NodeJS, Salesforce API, and PostgreSQL."
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "React and Node.js Development",
+          "score": 9,
+          "strongPoints": [
+            "Solid experience in fullstack development using React and Node.js with TypeScript.",
+            "Experience with building and maintaining APIs and dynamic UIs."
+          ],
+          "weakPoints": [],
+          "yearsOfExperience": 5,
+          "type": "Frontend",
+          "pointsOfAttention": [
+            "Evaluate proficiency with React hooks and performance optimization in complex UIs."
+          ],
+          "suggestedQuestions": [
+            "Describe a complex UI you built with React and how you optimized its performance.",
+            "How do you handle error management in Node.js API development?"
+          ]
+        },
+        {
+          "name": "APIs with Node.js & TypeScript",
+          "score": 8,
+          "strongPoints": [
+            "Developed RESTful APIs using Node.js and TypeScript in multiple projects.",
+            "Familiar with frameworks like Express and NestJS."
+          ],
+          "weakPoints": ["Limited experience with GraphQL APIs."],
+          "yearsOfExperience": 3,
+          "type": "Backend",
+          "pointsOfAttention": [
+            "Check knowledge in asynchronous programming and handling large data payloads."
+          ],
+          "suggestedQuestions": [
+            "How would you handle asynchronous tasks and error handling in Node.js?",
+            "Explain how you optimize API endpoints in a high-load environment."
+          ]
+        },
+        {
+          "name": "Clean Code and SOLID Principles",
+          "score": 7,
+          "strongPoints": [
+            "Familiar with clean code practices and applying SOLID principles in development.",
+            "Consistently applies refactoring techniques to improve code readability and maintainability."
+          ],
+          "weakPoints": ["Limited exposure to complex SOLID applications in large codebases."],
+          "yearsOfExperience": 2,
+          "type": "Programming",
+          "pointsOfAttention": [
+            "Evaluate understanding of dependency injection and interface segregation."
+          ],
+          "suggestedQuestions": [
+            "How do you apply SOLID principles in your code?",
+            "Can you describe a scenario where you used dependency injection effectively?"
+          ]
+        },
+        {
+          "name": "SQL and NoSQL Databases",
+          "score": 7,
+          "strongPoints": [
+            "Experience with both SQL (PostgreSQL) and NoSQL (MongoDB) databases.",
+            "Understands data modeling and query optimization."
+          ],
+          "weakPoints": ["Limited experience with complex data migrations and database tuning."],
+          "yearsOfExperience": 3,
+          "type": "Database",
+          "pointsOfAttention": [
+            "Assess experience in database design and indexing strategies."
+          ],
+          "suggestedQuestions": [
+            "What indexing strategies have you used to improve query performance?",
+            "Describe your approach to database schema design for a new project."
+          ]
+        },
+        {
+          "name": "Automated Testing (Jest/Mocha)",
+          "score": 6,
+          "strongPoints": [
+            "Familiar with writing unit tests using Jest and Mocha for JavaScript applications.",
+            "Understands test-driven development practices."
+          ],
+          "weakPoints": ["Limited experience with integration tests and end-to-end tests."],
+          "yearsOfExperience": 2,
+          "type": "Programming",
+          "pointsOfAttention": [
+            "Evaluate knowledge in setting up test suites and CI integration for testing."
+          ],
+          "suggestedQuestions": [
+            "How do you ensure adequate test coverage in your projects?",
+            "Can you describe a scenario where test-driven development benefited your project?"
+          ]
+        },
+        {
+          "name": "DevOps & CI/CD (Jenkins/GitLab CI)",
+          "score": 7,
+          "strongPoints": [
+            "Experience setting up CI/CD pipelines with GitLab CI and deploying applications using Docker.",
+            "Familiar with the basics of containerization and cloud deployment."
+          ],
+          "weakPoints": ["Limited experience with advanced CI/CD features like blue-green deployments."],
+          "yearsOfExperience": 2,
+          "type": "DevOps",
+          "pointsOfAttention": [
+            "Assess knowledge in configuring Docker and automating deployment pipelines."
+          ],
+          "suggestedQuestions": [
+            "How would you set up a CI/CD pipeline for a microservices architecture?",
+            "What are some best practices you follow for Dockerizing applications?"
+          ]
+        },
+        {
+          "name": "Git Version Control",
+          "score": 9,
+          "strongPoints": [
+            "Extensive experience using Git for version control, including branching and merging strategies.",
+            "Understands Gitflow and is proficient with collaboration workflows."
+          ],
+          "weakPoints": [],
+          "yearsOfExperience": 5,
+          "type": "Programming",
+          "pointsOfAttention": [
+            "Evaluate proficiency with resolving complex merge conflicts and rebasing."
+          ],
+          "suggestedQuestions": [
+            "Can you explain your approach to handling merge conflicts in Git?",
+            "How do you manage feature branches in a collaborative team environment?"
+          ]
+        },
+        {
+          "name": "Agile Collaboration (Scrum/Kanban)",
+          "score": 8,
+          "strongPoints": [
+            "Experienced in working within Agile environments using Scrum and Kanban methodologies.",
+            "Collaborative and communicative with cross-functional teams."
+          ],
+          "weakPoints": ["Limited experience with advanced Agile roles like Scrum Master."],
+          "yearsOfExperience": 3,
+          "type": "Programming",
+          "pointsOfAttention": [
+            "Assess experience with sprint planning and retrospective processes."
+          ],
+          "suggestedQuestions": [
+            "Describe your experience with sprint planning in an Agile team.",
+            "How do you handle changing requirements during a sprint?"
+          ]
+        }
+      ],
+      "overallScore": 8
+    },
+    {
+      "id": 2,
+      "generalInfo": {
+        "processStep": "Feedback",
+        "name": "Lucas Ferreira",
+        "location": "Belo Horizonte, Minas Gerais, Brasil",
+        "languages": ["Portuguese (native)"],
+        "education": [
+          {
+            "degree": "Graduação",
+            "field": "Tecnologia da Informação/Sistemas da Informação",
+            "institution": "Estácio",
+            "completionDate": "2022"
+          },
+          {
+            "degree": "Curso Superior de Tecnologia (CST)",
+            "field": "Administração, Negócios e Marketing",
+            "institution": "Arbutus College",
+            "completionDate": "2019"
+          }
+        ],
+        "certifications": [],
+        "professionalExperience": [
+          {
+            "title": "Analista ServiceNow",
+            "company": "Stefanini Brasil",
+            "duration": "julho de 2023 - agosto de 2024",
+            "responsibilities": "Development and analysis in ServiceNow solutions, focusing on ITSM modules including Client Scripts, Workflow, Flow Designer, UI Policy, SLAs/OLAs, Business Rules, Widgets, Service Portals, ACLs, Scheduled Jobs, Integrations, and APIs."
+          },
+          {
+            "title": "Desenvolvedor ServiceNow",
+            "company": "Aoop Cloud Solutions",
+            "duration": "maio de 2022 - julho de 2023",
+            "responsibilities": "Developed ServiceNow solutions with a focus on ITSM modules including Client Scripts, Workflow, Flow Designer, UI Policy, SLAs/OLAs, Business Rules, Widgets, Service Portals, and ACLs."
+          },
+          {
+            "title": "Desenvolvedor Full Stack",
+            "company": "4mti",
+            "duration": "maio de 2020 - outubro de 2021",
+            "responsibilities": "Fullstack development and maintenance of web applications using HTML5, CSS3, JavaScript, and PHP with MySQL and PostgreSQL databases."
+          },
+          {
+            "title": "Desenvolvedor de Software",
+            "company": "Teknisa",
+            "duration": "agosto de 2012 - dezembro de 2015",
+            "responsibilities": ""
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "JavaScript",
+          "score": 8,
+          "strongPoints": [
+            "Experienced in JavaScript for both frontend and ServiceNow development.",
+            "Used in web development with HTML5, CSS3, and integration within ServiceNow ITSM modules."
+          ],
+          "weakPoints": ["Limited exposure to JavaScript frameworks outside of ServiceNow and basic frontend."],
+          "yearsOfExperience": 4,
+          "type": "Programming",
+          "pointsOfAttention": [
+            "Evaluate proficiency in advanced JavaScript, particularly in frameworks and libraries."
+          ],
+          "suggestedQuestions": [
+            "How would you handle complex JavaScript logic in a web application?",
+            "Can you describe a scenario where you optimized JavaScript performance in a project?"
+          ]
+        },
+        {
+          "name": "React and Node.js Development",
+          "score": 6,
+          "strongPoints": [
+            "Some experience with React.js in previous projects.",
+            "General understanding of fullstack JavaScript development using JavaScript and PHP for backend."
+          ],
+          "weakPoints": ["Limited experience with advanced React patterns and state management libraries."],
+          "yearsOfExperience": 1,
+          "type": "Frontend",
+          "pointsOfAttention": [
+            "Evaluate familiarity with React component lifecycle and hooks."
+          ],
+          "suggestedQuestions": [
+            "How do you approach component re-renders and state management in React?",
+            "Describe your experience with fullstack development using Node.js and React."
+          ]
+        },
+        {
+          "name": "SQL and NoSQL Databases",
+          "score": 7,
+          "strongPoints": [
+            "Experienced with MySQL and PostgreSQL databases for web development.",
+            "Capable of designing and optimizing database schemas for web applications."
+          ],
+          "weakPoints": ["No exposure to NoSQL databases beyond relational SQL databases."],
+          "yearsOfExperience": 3,
+          "type": "Database",
+          "pointsOfAttention": [
+            "Evaluate knowledge in database optimization and indexing techniques."
+          ],
+          "suggestedQuestions": [
+            "Can you explain your approach to database normalization and optimization?",
+            "Describe a scenario where you improved query performance in a SQL database."
+          ]
+        },
+        {
+          "name": "DevOps & CI/CD (Jenkins/GitLab CI)",
+          "score": 5,
+          "strongPoints": [
+            "Basic knowledge of DevOps practices, focusing on scheduled jobs and API integrations in ServiceNow.",
+            "Some familiarity with deployment practices in past projects."
+          ],
+          "weakPoints": ["Limited exposure to CI/CD pipelines and advanced DevOps automation tools."],
+          "yearsOfExperience": 1,
+          "type": "DevOps",
+          "pointsOfAttention": [
+            "Evaluate understanding of CI/CD pipeline setup and automation tools."
+          ],
+          "suggestedQuestions": [
+            "How do you approach setting up a basic CI/CD pipeline?",
+            "What is your experience with managing deployments and scheduled jobs?"
+          ]
+        },
+        {
+          "name": "Agile Collaboration (Scrum/Kanban)",
+          "score": 7,
+          "strongPoints": [
+            "Experienced in working within Agile environments, particularly in roles where prioritizing tasks and working with cross-functional teams was essential.",
+            "Understands core Agile principles, with experience managing tasks and coordinating with teams."
+          ],
+          "weakPoints": ["Limited experience with advanced Agile roles such as Scrum Master."],
+          "yearsOfExperience": 3,
+          "type": "Programming",
+          "pointsOfAttention": [
+            "Evaluate understanding of Agile principles and specific contributions in past teams."
+          ],
+          "suggestedQuestions": [
+            "How do you handle changes in requirements within an Agile sprint?",
+            "Describe your experience managing tasks and priorities in a Scrum or Kanban environment."
+          ]
+        }
+      ],
+      "overallScore": 7
+    },
+    {
+      "id": 3,
+      "generalInfo": {
+        "processStep": "VideoSubmited",
+        "name": "Luciana Morais",
+        "location": "Belo Horizonte, Minas Gerais, Brasil",
+        "languages": ["Portuguese (native)"],
+        "education": [
+          {
+            "degree": "Pós-graduação",
+            "field": "Engenharia de Software com ênfase em métodos ágeis",
+            "institution": "Universidade Cruzeiro do Sul",
+            "completionDate": "2020"
+          },
+          {
+            "degree": "Bacharel",
+            "field": "Sistemas de Informação",
+            "institution": "Centro Universitário Anhangüera",
+            "completionDate": "2010"
+          }
+        ],
+        "certifications": [],
+        "professionalExperience": [
+          {
+            "title": "Java Developer",
+            "company": "Prodemge",
+            "duration": "June 2020 - Present",
+            "responsibilities": "Maintenance and enhancement of Java-based systems."
+          },
+          {
+            "title": "Project Manager / Requirements Analyst",
+            "company": "Prodemge",
+            "duration": "May 2014 - May 2020",
+            "responsibilities": "Led requirement gathering, task definition, sprint planning, and delivery tracking."
+          }
+        ]
+      },
+      "abilities": [
+        {
+          "name": "React and Node.js Development",
+          "score": 5,
+          "strongPoints": ["Basic experience in frontend development, with limited exposure to JavaScript and web frameworks."],
+          "weakPoints": ["Limited or no direct experience with React and Node.js development."],
+          "yearsOfExperience": 1,
+          "type": "Frontend",
+          "pointsOfAttention": ["Confirm familiarity with JavaScript frameworks."],
+          "suggestedQuestions": [
+            "How would you approach a React project if assigned?",
+            "Describe any recent experience you have with JavaScript development."
+          ]
+        },
+        {
+          "name": "APIs with Node.js & TypeScript",
+          "score": 4,
+          "strongPoints": ["Experienced in backend API development with Java, familiar with API integration."],
+          "weakPoints": ["No documented experience with Node.js or TypeScript for API development."],
+          "yearsOfExperience": 0,
+          "type": "Backend",
+          "pointsOfAttention": ["Evaluate knowledge of API design principles in Java versus Node.js."],
+          "suggestedQuestions": [
+            "How would you approach learning Node.js and TypeScript for backend APIs?",
+            "What are some best practices you use in Java API development?"
+          ]
+        },
+        {
+          "name": "Clean Code and SOLID Principles",
+          "score": 7,
+          "strongPoints": ["Experienced in clean coding practices and applying SOLID principles within Java projects."],
+          "weakPoints": ["Less exposure to advanced application of SOLID principles beyond Java."],
+          "yearsOfExperience": 6,
+          "type": "Programming",
+          "pointsOfAttention": ["Confirm understanding of SOLID principles in a JavaScript context."],
+          "suggestedQuestions": [
+            "How do you implement SOLID principles in your code?",
+            "Can you describe a time you refactored code to improve its clarity and maintainability?"
+          ]
+        },
+        {
+          "name": "SQL and NoSQL Databases",
+          "score": 6,
+          "strongPoints": ["Experienced with SQL databases for data management, supporting application development."],
+          "weakPoints": ["Limited exposure to NoSQL databases."],
+          "yearsOfExperience": 2,
+          "type": "Database",
+          "pointsOfAttention": ["Assess depth of SQL knowledge and understanding of NoSQL concepts."],
+          "suggestedQuestions": [
+            "How would you handle data storage in a NoSQL database?",
+            "What indexing strategies do you use to optimize SQL queries?"
+          ]
+        },
+        {
+          "name": "Automated Testing (Jest/Mocha)",
+          "score": 5,
+          "strongPoints": ["Basic understanding of testing principles and creating test cases."],
+          "weakPoints": ["Limited experience with Jest or Mocha for automated testing."],
+          "yearsOfExperience": 1,
+          "type": "Programming",
+          "pointsOfAttention": ["Assess familiarity with automated testing practices and tools beyond Java."],
+          "suggestedQuestions": [
+            "What is your approach to testing in software development?",
+            "How would you incorporate Jest or Mocha into your workflow?"
+          ]
+        },
+        {
+          "name": "DevOps & CI/CD (Jenkins/GitLab CI)",
+          "score": 4,
+          "strongPoints": ["Experience with project management, task scheduling, and basic CI/CD principles."],
+          "weakPoints": ["Limited hands-on experience with Jenkins or GitLab CI for CI/CD pipelines."],
+          "yearsOfExperience": 1,
+          "type": "DevOps",
+          "pointsOfAttention": ["Evaluate knowledge in setting up CI/CD workflows and deployment practices."],
+          "suggestedQuestions": [
+            "Describe any experience you have with CI/CD practices.",
+            "How would you approach automating deployment in Jenkins or GitLab?"
+          ]
+        },
+        {
+          "name": "Git Version Control",
+          "score": 8,
+          "strongPoints": ["Proficient with Git for version control and collaborative workflows."],
+          "weakPoints": ["Limited experience with complex branching strategies."],
+          "yearsOfExperience": 5,
+          "type": "Programming",
+          "pointsOfAttention": ["Confirm experience with Git best practices in team settings."],
+          "suggestedQuestions": [
+            "How do you handle branching and merging in Git?",
+            "Can you describe a challenging Git conflict you resolved?"
+          ]
+        },
+        {
+          "name": "Problem Solving",
+          "score": 8,
+          "strongPoints": ["Strong analytical skills, particularly in software requirements and project management."],
+          "weakPoints": [],
+          "yearsOfExperience": 10,
+          "type": "Programming",
+          "pointsOfAttention": ["Evaluate approach to solving technical challenges and system optimization."],
+          "suggestedQuestions": [
+            "Describe a time when you solved a complex problem in a project.",
+            "What is your approach to troubleshooting and debugging?"
+          ]
+        },
+        {
+          "name": "Agile Collaboration (Scrum/Kanban)",
+          "score": 7,
+          "strongPoints": ["Extensive experience in Agile methodologies, particularly in project management and requirements."],
+          "weakPoints": ["Limited experience as a Scrum Master."],
+          "yearsOfExperience": 5,
+          "type": "Programming",
+          "pointsOfAttention": ["Confirm experience with Agile ceremonies and team management."],
+          "suggestedQuestions": [
+            "How do you manage priorities in an Agile environment?",
+            "What is your approach to Agile sprint planning and retrospectives?"
+          ]
+        },
+        {
+          "name": "Docker & Kubernetes",
+          "score": 3,
+          "strongPoints": ["Basic knowledge of containerization concepts."],
+          "weakPoints": ["No hands-on experience with Docker or Kubernetes."],
+          "yearsOfExperience": 0,
+          "type": "DevOps",
+          "pointsOfAttention": ["Evaluate familiarity with Docker/Kubernetes for containerization."],
+          "suggestedQuestions": [
+            "How would you approach learning Docker and Kubernetes?",
+            "What do you know about containerization and its benefits?"
+          ]
+        },
+        {
+          "name": "Microservices Architecture",
+          "score": 4,
+          "strongPoints": ["Familiarity with service-oriented approaches in project management."],
+          "weakPoints": ["No practical experience with microservices architecture."],
+          "yearsOfExperience": 0,
+          "type": "Backend",
+          "pointsOfAttention": ["Assess understanding of microservices principles and benefits."],
+          "suggestedQuestions": [
+            "What do you understand about microservices architecture?",
+            "How would you implement a basic microservice?"
+          ]
+        }
+      ],
+      "overallScore": 6
+    }
+  ],
+
+  "openings": [
+    {
+      "id": 1,
+      "title": "Mid-Level Fullstack React/Node",
+      "open_date": "2024-01-01",
+      "description": "Somos muito mais que uma empresa de tecnologia; somos uma comunidade diversa, plural e talentosa. Nosso propósito é liderar a transformação digital com excelência e agilidade, promovendo crescimento mútuo e genuíno em relações éticas e duradouras. Flexibilidade é uma de nossas marcas registradas, atuamos em diferentes modelos e formatos de equipe, mantendo nossa cultura leve, colaborativa e integrada, proporcionando equidade de oportunidades em um espaço onde todos se sintam seguros e ouvidos.",
+      "responsibilities": [
+        "Desenvolver e manter aplicações web utilizando React no front-end e Node.js com TypeScript no back-end",
+        "Projetar e implementar APIs RESTful utilizando Node.js e frameworks como Express ou NestJS",
+        "Criar interfaces de usuário responsivas e dinâmicas utilizando React, Redux e bibliotecas modernas de front-end",
+        "Participar ativamente em todas as fases do ciclo de vida do desenvolvimento de software, desde o levantamento de requisitos até a entrega e manutenção de funcionalidades",
+        "Garantir a qualidade do código, seguindo práticas de clean code e princípios SOLID",
+        "Colaborar com desenvolvedores, designers e product owners para traduzir requisitos de negócios em soluções técnicas eficazes",
+        "Implementar testes unitários e de integração para garantir a qualidade do software",
+        "Participar de revisões de código e contribuir com sugestões para melhorar a performance e a manutenibilidade das soluções",
+        "Trabalhar com pipelines de CI/CD para automatizar processos de build, testes e deploy",
+        "Documentar processos e soluções técnicas para garantir que a equipe tenha clareza nas implementações"
+      ],
+      "requirements": {
+        "mandatory": {
+          "expanded": [
+            "Experiência com React no desenvolvimento de interfaces de usuário modernas e escaláveis",
+            "Experiência com Node.js e TypeScript no desenvolvimento de APIs RESTful e serviços back-end",
+            "Conhecimento em boas práticas de desenvolvimento, incluindo clean code e princípios SOLID",
+            "Experiência com bancos de dados relacionais e não relacionais, como PostgreSQL, MySQL ou MongoDB",
+            "Familiaridade com ferramentas de testes automatizados, como Jest, Mocha ou similares",
+            "Conhecimento em práticas de DevOps e ferramentas de CI/CD, como Jenkins, GitLab CI, CircleCI ou similares",
+            "Experiência com controle de versão usando Git",
+            "Habilidades de resolução de problemas e otimização de sistemas",
+            "Capacidade de trabalhar de forma colaborativa em ambientes ágeis (Scrum, Kanban)"
+          ],
+          "contracted": [
+            "React and Node.js Development",
+            "APIs with Node.js & TypeScript",
+            "Clean Code and SOLID Principles",
+            "SQL and NoSQL Databases",
+            "Automated Testing (Jest/Mocha)",
+            "DevOps & CI/CD (Jenkins/GitLab CI)",
+            "Git Version Control",
+            "Problem Solving",
+            "Agile Collaboration (Scrum/Kanban)"
+          ]
+        },
+        "desirable": {
+          "expanded": [
+            "Experiência com contêineres e orquestração, como Docker e Kubernetes",
+            "Conhecimento em arquitetura de microsserviços e eventos",
+            "Familiaridade com serverless architecture utilizando serviços como AWS Lambda, Google Cloud Functions ou Azure Functions",
+            "Conhecimento em segurança no desenvolvimento de aplicações web",
+            "Experiência com frameworks de front-end adicionais, como Next.js",
+            "Familiaridade com ferramentas de monitoramento e logging, como ELK Stack, Prometheus ou Grafana"
+          ],
+          "contracted": [
+            "Docker & Kubernetes",
+            "Microservices Architecture",
+            "Serverless (AWS/GCP/Azure)",
+            "Web Security Practices",
+            "Next.js Framework",
+            "Monitoring & Logging (ELK)"
+          ]
+        }
+      },
+      "location": "Remoto",
+      "contract_type": "CLT",
+      "benefits": [
+        "Vale Alimentação/Refeição",
+        "Plano de Saúde Unimed",
+        "Plano de Saúde Bradesco",
+        "Plano Odontológico Uniodonto e Bradesco Dental",
+        "TotalPass",
+        "Zenklub",
+        "Programa de Indicação com bônus",
+        "Seguro de Vida",
+        "Auxílio Creche",
+        "Baby Zallpy",
+        "Comunidades Voluntárias",
+        "Descontos em Instituições de Ensino",
+        "Experiências e Desenvolvimento",
+        "Acompanhamento de Business Partners"
+      ],
+      "close_date": "2024-12-31",
+      "number_of_applicants": "31",
+      "status": "open"
+    },
+    {
+      "id": 2,
+      "title": "Backend Developer",
+      "description": "Estamos buscando um desenvolvedor backend apaixonado por tecnologia e inovação. Nossa equipe é colaborativa e dinâmica, focada em construir soluções de alto desempenho e escalabilidade para apoiar nossos clientes no crescimento sustentável e digitalização de seus negócios.",
+      "responsibilities": [
+        "Desenvolver e manter APIs robustas e escaláveis usando Node.js e TypeScript",
+        "Implementar integrações com sistemas internos e de terceiros",
+        "Colaborar com equipes de front-end para definir contratos de API",
+        "Garantir a segurança e a performance das aplicações backend",
+        "Manter a documentação técnica atualizada para facilitar a manutenção",
+        "Trabalhar com práticas de DevOps para deploy e monitoramento contínuo"
+      ],
+      "requirements": {
+        "mandatory": {
+          "expanded": [
+            "Experiência com Node.js e TypeScript no desenvolvimento de APIs",
+            "Conhecimento em bancos de dados SQL e NoSQL, como PostgreSQL e MongoDB",
+            "Familiaridade com Docker e orquestração de contêineres",
+            "Experiência com segurança e autenticação de APIs",
+            "Experiência com Git para controle de versão",
+            "Capacidade de trabalhar em um ambiente colaborativo ágil"
+          ],
+          "contracted": [
+            "Node.js & TypeScript",
+            "SQL/NoSQL Databases",
+            "Docker & Containers",
+            "API Security",
+            "Version Control (Git)",
+            "Agile Collaboration"
+          ]
+        },
+        "desirable": {
+          "expanded": [
+            "Conhecimento em arquitetura de microsserviços",
+            "Experiência com ferramentas de monitoramento como Prometheus ou Grafana",
+            "Familiaridade com testes automatizados usando Jest ou Mocha",
+            "Experiência com serviços em cloud como AWS ou GCP"
+          ],
+          "contracted": [
+            "Microservices Architecture",
+            "Monitoring (Prometheus/Grafana)",
+            "Automated Testing (Jest/Mocha)",
+            "Cloud Services (AWS/GCP)"
+          ]
+        }
+      },
+      "location": "Remoto",
+      "contract_type": "PJ",
+      "benefits": [
+        "Horário Flexível",
+        "Vale Refeição",
+        "Seguro de Vida",
+        "Acesso a plataformas de aprendizado"
+      ],
+      "open_date": "2024-11-10",
+      "close_date": "2024-12-10",
+      "number_of_applicants": 80,
+      "status": "open"
+    },
+    {
+      "id": 3,
+      "title": "Mobile Developer",
+      "description": "Procuramos um desenvolvedor mobile com experiência em criação de aplicativos Android e iOS usando React Native. Nossa equipe é focada na criação de soluções móveis que melhoram a experiência dos usuários e geram valor para o negócio.",
+      "responsibilities": [
+        "Desenvolver e manter aplicativos móveis para Android e iOS com React Native",
+        "Trabalhar em conjunto com designers para implementar interfaces de usuário intuitivas",
+        "Garantir performance e responsividade das aplicações móveis",
+        "Integrar APIs de backend com o aplicativo móvel",
+        "Escrever testes unitários e de integração para garantir a qualidade do software",
+        "Publicar e gerenciar versões de aplicativos nas lojas Google Play e Apple App Store"
+      ],
+      "requirements": {
+        "mandatory": {
+          "expanded": [
+            "Experiência com React Native no desenvolvimento de aplicativos móveis",
+            "Conhecimento de integrações com APIs RESTful",
+            "Familiaridade com JavaScript e TypeScript",
+            "Experiência com controle de versão usando Git",
+            "Conhecimento em design responsivo e otimização de performance",
+            "Habilidade para resolver problemas técnicos e garantir usabilidade"
+          ],
+          "contracted": [
+            "React Native",
+            "API Integrations",
+            "JavaScript & TypeScript",
+            "Version Control (Git)",
+            "Responsive Design",
+            "Usability & Performance"
+          ]
+        },
+        "desirable": {
+          "expanded": [
+            "Experiência com Firebase para autenticação e armazenamento",
+            "Familiaridade com práticas de DevOps em aplicativos móveis",
+            "Conhecimento de Swift ou Kotlin para desenvolvimento nativo",
+            "Experiência com ferramentas de monitoramento de aplicativos, como Firebase Crashlytics"
+          ],
+          "contracted": [
+            "Firebase Integration",
+            "Mobile DevOps",
+            "Native Dev (Swift/Kotlin)",
+            "App Monitoring (Crashlytics)"
+          ]
+        }
+      },
+      "location": "São Paulo, SP (Híbrido)",
+      "contract_type": "CLT",
+      "benefits": [
+        "Plano de Saúde",
+        "Auxílio Home Office",
+        "TotalPass para bem-estar",
+        "Zenklub para saúde mental"
+      ],
+      "open_date": "2024-11-20",
+      "close_date": "2024-12-20",
+      "number_of_applicants": 65,
+      "status": "open"
+    },
+    {
+      "id": 4,
+      "title": "Junior QA Engineer",
+      "description": "Estamos em busca de um QA Engineer junior para auxiliar na garantia de qualidade das nossas aplicações. Você irá colaborar com uma equipe experiente para testar e validar funcionalidades e assegurar que nossos produtos atendem aos mais altos padrões.",
+      "responsibilities": [
+        "Escrever e executar casos de teste manuais e automatizados",
+        "Colaborar com desenvolvedores para entender os requisitos e especificações",
+        "Identificar e reportar bugs e problemas de usabilidade",
+        "Criar e manter documentação de testes",
+        "Ajudar na implementação de pipelines de testes automatizados",
+        "Participar de reuniões para discutir melhorias de qualidade e processos"
+      ],
+      "requirements": {
+        "mandatory": {
+          "expanded": [
+            "Conhecimento básico de ferramentas de automação de testes, como Selenium ou Cypress",
+            "Familiaridade com metodologias de testes manuais e automatizados",
+            "Habilidade em identificar e documentar bugs",
+            "Conhecimento em controle de versão com Git",
+            "Capacidade de colaborar em equipe"
+          ],
+          "contracted": [
+            "Test Automation (Selenium/Cypress)",
+            "Manual & Automated Testing",
+            "Bug Reporting",
+            "Version Control (Git)",
+            "Team Collaboration"
+          ]
+        },
+        "desirable": {
+          "expanded": [
+            "Familiaridade com CI/CD e práticas DevOps",
+            "Conhecimento básico em SQL para consultas de banco de dados",
+            "Experiência com ferramentas de teste de carga, como JMeter",
+            "Noções básicas de programação, especialmente em JavaScript ou Python"
+          ],
+          "contracted": [
+            "CI/CD & DevOps",
+            "SQL Basics",
+            "Load Testing (JMeter)",
+            "Basic Programming (JS/Python)"
+          ]
+        }
+      },
+      "location": "Remoto",
+      "contract_type": "Estágio",
+      "benefits": [
+        "Bolsa auxílio",
+        "Vale Refeição",
+        "Acesso a plataformas de aprendizado",
+        "Programa de Mentoria"
+      ],
+      "open_date": "2024-12-01",
+      "close_date": "2025-01-01",
+      "number_of_applicants": 40,
+      "status": "open"
+    }
+  ]
+}

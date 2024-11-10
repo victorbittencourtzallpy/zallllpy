@@ -1,0 +1,83 @@
+@if (!videoSubmited) {
+  <div class="autoview-container">
+    <div class="autoview-title">
+      <!-- Title -->
+      <h1>Olá, Pessoinha</h1>
+      <p>Bem vindo ao processo seletivo para Dev C Sr.</p>
+    </div>
+  
+    <div class="step">
+      <h2>1º Passo: Envie seu currículo</h2>
+      <span>Enviar currículo</span>
+    </div>
+  </div>
+  <div class="pdf-upload-container">
+    <label for="pdfUpload" class="upload-label">
+      Choose a PDF file
+      <input
+        type="file"
+        id="pdfUpload"
+        (change)="onFileSelected($event)"
+        accept=".pdf"
+        class="file-input"
+      />
+    </label>
+    @if(fileName) {
+    <div class="file-info">
+      Selected file: {{ fileName }}
+      <button (click)="clearFile()" class="clear-btn">Remove</button>
+    </div>
+    @if (fileError) {
+    <div class="error-message">{{ fileError }}</div>
+    } }
+  </div>
+  @if (fileName) {
+  <div>
+    <h2>2º Passo: Grave um vídeo sobre você.</h2>
+    <p>
+      As dicas ao lado foram obtidas analisando tanto seu perfil quanto a
+      descrição da vaga.
+    </p>
+  </div>
+  <div class="video-chat-container">
+    <div class="video-upload-container">
+      <label for="videoUpload" class="upload-label">
+        Choose a video file
+        <input
+          type="file"
+          id="videoUpload"
+          (change)="onVideoFile($event)"
+          accept="video/mp4,video/webm,video/ogg"
+          class="file-input"
+        />
+      </label>
+      @if(videoFile) {
+      <div class="video-player">
+        <video
+          #videoPlayer
+          controls
+          [src]="videoUrl"
+          class="video-element"
+        ></video>
+        <button (click)="clearVideo()" class="clear-btn">Remove Video</button>
+      </div>
+      <button (click)="sendVideo()" class="upload-label">Submit video</button>
+      @if(true) {
+      <div class="error-message">{{ fileError }}</div>
+      } }
+    </div>
+  </div>
+  
+  } @if(showSpinner) {
+  <mat-progress-spinner
+    mode="indeterminate"
+    diameter="40"
+    class="loading-spinner"
+  ></mat-progress-spinner>
+  }
+} @else {
+  <h1>Your video has been submitted. Thanks!</h1>
+}
+
+
+

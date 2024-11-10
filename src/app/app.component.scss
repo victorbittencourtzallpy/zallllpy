@@ -1,0 +1,29 @@
+/* app.component.scss */
+.grid-container {
+    display: grid;
+    gap: 6px 0;
+    grid-template-columns: 200px 1fr; /* 200px for the sidebar, remaining space for the content */
+    grid-template-rows: 60px auto; /* Auto height for logo and navbar, 1fr for content */
+    grid-template-areas: 
+      "logo top-nav"
+      "side-nav main-content";
+    height: 100vh;
+  }
+  
+  .logo {
+    grid-area: logo;
+  }
+  
+  .top-nav {
+    grid-area: top-nav;
+  }
+  
+  .side-nav {
+    grid-area: side-nav;
+  }
+  
+  .main-content {
+    grid-area: main-content;
+    overflow: hidden;
+  }
+  

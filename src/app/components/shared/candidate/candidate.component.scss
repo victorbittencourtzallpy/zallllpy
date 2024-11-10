@@ -1,0 +1,87 @@
+.black-cards {
+  padding: 12px 20px;
+  background-color: #2a2d3b;
+  border-radius: 8px;
+  width: max-content;
+}
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.half-space {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.chart-container {
+    flex-grow: 1;
+}
+
+.abilities-list-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap */
+    gap: 20px; /* Add space between items */
+}
+
+
+
+.ability-item {
+    flex: 1 1 300px; /* Grow, shrink, and set a basis of 200px */
+    min-width: 300px; /* Minimum width for each item */
+    background-color:#2a2d3b;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-size: 1em;
+    padding: 10px 15px;
+    border-radius: 8px;
+    gap: 10px;
+  }
+
+  .ability-item-header{
+    border-radius: 8px;
+    background-color: #4a4d6b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3em;
+    padding: 13px 18px;
+  }
+
+  .points-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .point {
+    background-color: #4a4d6b;
+    flex: 1;
+    padding: 12px 16px;
+    border-radius: 8px;
+  }
+
+  .ability-item-body {
+    padding: 5px 8px;
+    display: flex;
+  }
+
+
+  .score {
+    width: 50px;
+    height: 50px;
+    color: white; /* Adjust for text contrast */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .score[data-score] {
+    background-color: hsl(calc(120 * (attr(data-score, number) / 10)), 100%, 50%);
+  }

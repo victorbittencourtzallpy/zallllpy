@@ -1,0 +1,37 @@
+<h1>Openings</h1>
+<div class="table-container">
+    <table mat-table [dataSource]="dataSource()" class="mat-elevation-z8">
+  
+      <!-- Title Column -->
+      <ng-container matColumnDef="title">
+        <th mat-header-cell *matHeaderCellDef> Title </th>
+        <td mat-cell *matCellDef="let opening"> {{ opening.title }} </td>
+      </ng-container>
+  
+      <!-- Open Date Column -->
+      <ng-container matColumnDef="open_date">
+        <th mat-header-cell *matHeaderCellDef> Open Date </th>
+        <td mat-cell *matCellDef="let opening"> {{ opening.open_date }} </td>
+      </ng-container>
+  
+      <!-- Number of Applicants Column -->
+      <ng-container matColumnDef="number_of_applicants">
+        <th mat-header-cell *matHeaderCellDef> Applicants </th>
+        <td mat-cell *matCellDef="let opening"> {{ opening.number_of_applicants }} </td>
+      </ng-container>
+  
+      <!-- Status Column -->
+      <ng-container matColumnDef="status">
+        <th mat-header-cell *matHeaderCellDef> Status </th>
+        <td mat-cell *matCellDef="let opening">
+          <mat-chip [color]="opening.status === 'open' ? 'primary' : (opening.status === 'in_progress' ? 'accent' : 'warn')" selected>
+            {{ opening.status }}
+          </mat-chip>
+        </td>
+      </ng-container>
+  
+      <!-- Header and Row Definitions -->
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;" (click)="navigateTo(row.id)"></tr>
+    </table>
+  </div>

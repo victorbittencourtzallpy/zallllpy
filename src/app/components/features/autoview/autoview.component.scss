@@ -1,0 +1,117 @@
+.autoview-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+}
+
+.autoview-title {
+    h1 {
+        margin: 0;
+    }
+}
+
+pdf-upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .upload-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  .file-info {
+    font-size: 0.9em;
+    color: #fff;
+  }
+  
+  .clear-btn {
+    margin-left: 10px;
+    background: none;
+    border: none;
+    color: #ff5722;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: #ff5722;
+    font-size: 0.8em;
+  }
+
+
+  .video-chat-container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+
+  .video-upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .upload-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  .video-player {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .video-element {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .clear-btn {
+    margin-top: 10px;
+    background: none;
+    border: none;
+    color: #ff5722;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: #ff5722;
+    font-size: 0.8em;
+  }
+
+  .video-chat-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .chat-container {
+  }
